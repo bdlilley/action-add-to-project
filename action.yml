@@ -7,6 +7,9 @@ inputs:
   issue:  # id of input
     description: 'issue id'
     required: true
+  token:  # id of input
+    description: 'github api token'
+    required: true
 # outputs:
 #   time: # id of output
 #     description: 'The time we greeted you'

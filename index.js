@@ -4,7 +4,7 @@ const { Octokit } = require("@octokit/rest");
 
 try {
   const octokit = new Octokit({
-    auth: process.env.GITHUB_TOKEN
+    auth: core.getInput('token')
   });
   const projectId = core.getInput('project');
   const issueId = core.getInput('issue');
