@@ -4,7 +4,7 @@ inputs:
   project:  # id of input
     description: 'project id'
     required: true
-  isue:  # id of input
+  issue:  # id of input
     description: 'issue id'
     required: true
 # outputs:
