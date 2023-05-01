@@ -1,0 +1,15 @@
+name: 'add-to-project'
+description: 'add an issue to a project'
+inputs:
+  project:  # id of input
+    description: 'project id'
+    required: true
+  isue:  # id of input
+    description: 'issue id'
+    required: true
+# outputs:
+#   time: # id of output
+#     description: 'The time we greeted you'
+runs:
+  using: 'node16'
+  main: 'index.js'
