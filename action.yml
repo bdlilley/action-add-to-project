@@ -1,8 +1,8 @@
 name: 'add-to-project'
 description: 'add an issue to a project'
 inputs:
-  project:  # id of input
-    description: 'project id'
+  release:  # id of input
+    description: 'release number'
     required: true
   issue:  # id of input
     description: 'issue id'
